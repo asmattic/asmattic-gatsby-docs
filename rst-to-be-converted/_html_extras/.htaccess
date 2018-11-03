@@ -1,0 +1,6 @@
+# User Authentication
+# AuthType Basic
+# AuthUserFile /home/matth870/.htpasswds/.htpasswd
+# AuthName "Password Protected Area"
+
+# Require valid-user
