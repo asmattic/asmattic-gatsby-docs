@@ -27,3 +27,6 @@
         - [Netlify identity](https://www.netlify.com/docs/identity/)
         - [JamStack](https://jamstack.org/) - Best practices for building these types of apps
             - [JamStack Examples](https://jamstack.org/examples/)
+
+ - Search
+    - [Algolia](https://www.algolia.com/)

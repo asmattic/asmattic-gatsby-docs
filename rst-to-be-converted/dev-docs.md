@@ -1,39 +1,41 @@
----
-templateKey: 'blog-post'
-title: Writing This Documentation
-date: 2018-11-03T01:24:10.000Z
-description: This documentation page is the first and will be a test.
-tags:
-  - gatsby
-  - markdown
----
+=============
+Documentation
+=============
+
+.. contents::
+   :depth: 3
+..
+
+General development specifications for .
 
 Writing This Documentation
 ==========================
 
 This documentation is maintained in this Github repository
 https://github.com/moldfield/transparenc-docs . It is written in
-[reStructuredText](http://sphinx-doc.org/rest.html) using the
-[Sphinx](http://sphinx-doc.org/) tool that auto generates
-documentation in html and presents it in the [Read the
-Docs](http://docs.readthedocs.io/en/latest) theme.
+`reStructuredText <http://sphinx-doc.org/rest.html>`__ using the
+`Sphinx <http://sphinx-doc.org/>`__ tool that auto generates
+documentation in html and presents it in the `Read the
+Docs <http://docs.readthedocs.io/en/latest>`__ theme.
 
-The [Read the Docs Account](https://readthedocs.org/dashboard/)
+The `Read the Docs Account <https://readthedocs.org/dashboard/>`__
 automatically updates and rebuilds the documentation upon pushing new
 commits to the Github repository attached to the account. The
 documentation is built in responsive html, PDF and Epub formats and is
 available for download in any of the versions that are created over time
 in multiple languages.
 
-- [Git Branch Control](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
-- [reStructuredText Substitutions](http://www.sphinx-doc.org/en/stable/markup/inline.html#default-substitutions)
+-  `Git Branch
+   Control <https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches>`__
+-  `reStructuredText
+   Substitutions <http://www.sphinx-doc.org/en/stable/markup/inline.html#default-substitutions>`__
 
 Some Useful Git Commands
 ========================
 
 The most common commands are
 
-``` bash
+.. code:: bash
 
    $ git add --all
 
@@ -53,13 +55,18 @@ The most common commands are
    # Merging and pulling
    $ git fetch --all
    $ git fetch --hard origin/[your-branch]
-```
 
 When you need to combine changes made somewhere else with your current
 branch.
 
-`$ git pull origin other-branch`
+``$ git pull origin other-branch``
 
 Git is basically doing this
 
-`$ git fetch origin other-branch && git merge other-branch`
+``$ git fetch origin other-branch && git merge other-branch``
+
+Updating User Role Capabilities
+===============================
+
+In the ``wp_options`` table, edit the ``wp_user_roles`` by removing the
+role in question. Then deactivate and activate the plugin.
