@@ -35,7 +35,7 @@ Some Useful Git Commands
 
 The most common commands are
 
-.. code:: bash
+``` bash
 
    $ git add --all
 
@@ -56,6 +56,7 @@ The most common commands are
    $ git fetch --all
    $ git fetch --hard origin/[your-branch]
 
+```
 When you need to combine changes made somewhere else with your current
 branch.
 
@@ -64,9 +65,3 @@ branch.
 Git is basically doing this
 
 ``$ git fetch origin other-branch && git merge other-branch``
-
-Updating User Role Capabilities
-===============================
-
-In the ``wp_options`` table, edit the ``wp_user_roles`` by removing the
-role in question. Then deactivate and activate the plugin.

@@ -1,0 +1,4 @@
+- title: '0.0.1'
+  path: /version/0.0.1
+  changelog: https://github.com/asmattic/asmattic-gatsby-docs/blob/master/CHANGELOG.md#1650-september-5-2018
+  url: https://<subdomain>.netlify.com/
