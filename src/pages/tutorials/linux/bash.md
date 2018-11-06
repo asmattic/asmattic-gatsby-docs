@@ -1,4 +1,12 @@
-# Bash
+---
+templateKey: blog-post
+title: Bash
+date: 2016-12-17T15:04:10.000Z
+description: General tips and `~/.bashrc` functions and settings to make the Linux experience better.
+tags:
+  - bash
+  - linux
+---
 
 ## Terminal
 
