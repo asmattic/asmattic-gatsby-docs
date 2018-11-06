@@ -24,6 +24,10 @@ they recommend.
 
 [Google Analytics](https://analytics.google.com)
 
+[Segment Analytics](https://app.segment.com/accusoft-moldfield/overview)
+
+Segment is based on an open source analytics library that can measure a wide variety of user and app activities. It can gather data with an event based API and send that data to multiple different sources such as Google Analytics, a BigQuery database, Postgres, etc.
+
 ## Authentication
 
 [Netlify Auth](https://www.netlify.com/docs/identity/)

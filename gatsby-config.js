@@ -1,10 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Asmattic Docs Gatsby + Netlify CMS',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-nprogress',
+      options: {
+        color: '#61dafb',
+      },
+    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -52,6 +58,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-41298772-1',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
@@ -59,4 +71,4 @@ module.exports = {
     },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
-}
+};
