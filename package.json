@@ -17,7 +17,7 @@
     "gatsby-remark-images": "^2.0.1",
     "gatsby-remark-relative-images": "^0.2.0",
     "gatsby-source-filesystem": "^2.0.1",
-    "gatsby-transformer-remark": "^2.1.1",
+    "gatsby-transformer-remark": "^6.16.0",
     "gatsby-transformer-sharp": "^2.1.1",
     "glamor": "^2.20.40",
     "hex2rgba": "0.0.1",
